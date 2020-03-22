@@ -1,0 +1,64 @@
+
+
+ section.svg{
+          position: relative;
+          padding: 0;
+          margin: 0;
+          background: #d3325f url('/img/slide15.png');
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          min-height: 400px;
+          display: flex;
+          justify-content: center;
+         
+        }
+  section.svg h2{
+     margin: 40px 0;
+     color: #fff;
+     font-size: 4rem;
+     font-weight: 700;
+  }
+
+        #curve path{
+          fill: #fff;
+        }
+        #curve{
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+        }
+        section.sec2{
+          width: 100%;
+          height: auto;
+          background: #fff;
+        }
+    .go-back{
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: #d3325f;
+    }
+
+    .go-back:hover{
+      text-decoration: none;
+    }
+
+    .gallery-boxes{
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .gallery-box{
+      background: #ddd;
+      text-align: center;
+      padding: 1.5rem 2rem;
+      box-shadow: var(--shadow);
+    }
+
+    .gallery-title-price{
+      color: #d3325f;
+      font-size: 1.5rem;
+    }
+
+  
